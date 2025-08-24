@@ -11,3 +11,5 @@ func _physics_process(delta: float) -> void:
 	if (position.distance_to(destination) > 3):
 		velocity = position.direction_to(destination).normalized() * speed
 		move_and_slide()
+	else:
+		Singleton.player_stationed.emit()
