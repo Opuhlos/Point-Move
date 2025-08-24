@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://cxw3ai7wcqnms"]
+
+[ext_resource type="Script" uid="uid://d3ktxkxi4fedl" path="res://mouse_position_label.gd" id="1_ig7tw"]
+
+[node name="Main" type="Node2D"]
+
+[node name="MousePositionLabel" type="Label" parent="."]
+offset_right = 40.0
+offset_bottom = 23.0
+script = ExtResource("1_ig7tw")
