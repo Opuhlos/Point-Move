@@ -20,6 +20,5 @@ func _physics_process(delta: float) -> void:
 		
 	var next_path_position: Vector2 = navigation_agent.get_next_path_position()
 	velocity = global_position.direction_to(next_path_position) * speed
-	print(next_path_position)
-
+	
 	move_and_slide()

@@ -32,6 +32,8 @@ tile_set = SubResource("TileSet_tefeu")
 [node name="MousePositionLabel" type="Label" parent="."]
 offset_right = 40.0
 offset_bottom = 23.0
+theme_override_font_sizes/font_size = 5
+text = "Position"
 script = ExtResource("1_sugp2")
 
 [node name="Player" parent="." instance=ExtResource("2_jyhfs")]
